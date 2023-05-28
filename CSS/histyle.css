@@ -1,0 +1,47 @@
+
+/* Estilos gerais */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para o header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: right;
+}
+
+/* Estilos para o botão */
+#button {
+  background-color: #882626;
+  color: #722a2a;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Estilos para o container */
+#container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+/* Estilos para a sidebar */
+#sidebar {
+  width: 50px;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
