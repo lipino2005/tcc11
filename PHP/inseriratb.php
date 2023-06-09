@@ -4,7 +4,7 @@ include "conexao.php";
 $email = $_POST['email'];
 $senha = $_POST['senha'];
 
- $query_select="SELECT fome,malicia,sorte FROM usuario WHERE email='$email' AND senha='$senha'";
+ $query_select="SELECT fome,malicia,sorte FROM habilidades WHERE email='$email' AND senha='$senha'";
  $select = mysqli_query($conn, $query_select);
 
 if (($select) && ($select->num_rows != 0)) {
@@ -16,7 +16,7 @@ if (($select) && ($select->num_rows != 0)) {
             $fome = $rows['fome'];
             $malicia = $rows['malicia'];
             $sorte = $rows['sorte']; 
-            echo "lindo"
+            echo "lindo";
         }
     }
 }

@@ -8,6 +8,6 @@ $senha = "";
 $conn = mysqli_connect($hostname, $usuario, $senha, $bancodados);
 
 if (!$conn) {
-  die ("error" . mysqli_connect_erro($conn));
+  die ("error" . mysqli_connect_error ($conn));
 } else {
 }

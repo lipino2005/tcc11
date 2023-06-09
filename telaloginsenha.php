@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Tela de Login</title>
+	<title>Login</title>
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 
 </head>
 <body>
 	<div class="container">
-		<h1>Tela de Login</h1>
+		<h1>Login</h1>
 	<form>
 		<fieldset id="login"><legend>login</legend>
 			<label for="loginm">Mestre</label><input type="radio" name="Clogin" id="loginm"/>

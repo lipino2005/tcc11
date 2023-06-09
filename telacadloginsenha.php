@@ -8,18 +8,27 @@
 </head>
 
 <body>
+    <div class="container">
+    
     <form method="POST" action="./PHP/inserirdados.php">
         <label for="username"> Usuário: </label>
+        <br>
         <input type="text" id="username" name="username"><br>
 
-        <label for="password"> Senha: </label>
-        <input type="password" id="password" name="password"><br>
+    <br>
 
         <label for="email"> E-mail: </label>
         <input type="email" id="email" name="email"><br>
 
-        <input type="submit" value="Cadastrar">
+        <label for="password"> Senha: </label>
+        <input type="password" id="password" name="password"><br>
+
+        
+
+        <button type="submit" value="Cadastrar"> Cadastrar </button>
+    
     </form>
+    </div>
 </body>
 
 </html>
