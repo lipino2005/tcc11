@@ -21,7 +21,7 @@
 		<label for="senha">Senha:</label>
         <input type="password" name="senha" required autocomplete="off">
 
-		<button type="submit">Entrar</button>
+		<button type="submit" href="http://localhost//tcc11/telacadloginsenha.php">Entrar</button>
 		<a href="http://localhost//tcc11/telacadloginsenha.php">criar cadrastro</a>
 	</form>
 </body>
