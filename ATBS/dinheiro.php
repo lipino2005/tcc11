@@ -16,7 +16,7 @@
                     </ul>
                 </div>    
             </li>
-            <li><a href="#"></a> Renda per capita</li>
+            <li><a href="http://localhost//tcc11/ATBS/dinheiro.php"></a> Renda per capita</li>
                 <div class="sub-menu-1">
                         <ul>
                             <li> <a href="#"></li>
@@ -24,8 +24,8 @@
                 </div>    
 
             </li>
-            <li><a href="http://localhost//tcc11/ATBS/.php">Descrição</a> </li>
-            <li><a href="#">Itens</a> </li>
+            <li><a href="http://localhost//tcc11/ATBS/bio.php">Biografia</a> </li>
+            <li><a href="http://localhost//tcc11/ATBS/itens.php">Itens</a> </li>
         </ul>
     </nav>        
 </body>

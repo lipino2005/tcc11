@@ -13,7 +13,7 @@ if (mysqli_query($conn, $insert_data)) {
 
 mysqli_close($conn);
 
-header('Location: http://localhost//tcc11/telaatributo.php');
+header('Location: http://localhost//tcc11/ATBS/atributos.php');
 
 
 

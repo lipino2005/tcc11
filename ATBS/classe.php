@@ -24,8 +24,8 @@
                 </div>    
 
             </li>
-            <li><a href="http://localhost//tcc11/ATBS/dinheiro.php">Personalidade</a> </li>
-            <li><a href="#">Itens</a> </li>
+            <li><a href="http://localhost//tcc11/ATBS/bio.php">Biograqfia</a> </li>
+            <li><a href="http://localhost//tcc11/ATBS/itens.php">Itens</a> </li>
         </ul>
     </nav>        
 </body>

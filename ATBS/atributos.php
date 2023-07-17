@@ -16,14 +16,14 @@
                     </ul>
                 </div>    
             </li>
-            <li><a href="#">Renda per capita</a> </li>
+            <li><a href="http://localhost//tcc11/ATBS/dinheiro.php">Renda per capita</a> </li>
                 <div class="sub-menu-1">
                        
                 </div>    
 
             </li>
-            <li><a href="http://localhost//tcc11/ATBS/dinheiro.php">Personalidade</a> </li>
-            <li><a href="#">Itens</a> </li>
+            <li><a href="http://localhost//tcc11/ATBS/bio.php">Biografia</a> </li>
+            <li><a href="http://localhost//tcc11/ATBS/itens.php">Itens</a> </li>
         </ul>
     </nav>        
 </body>
@@ -87,6 +87,7 @@
 		<button type="submit">Proximo</button>
 </div>
 		<script src="script.js"></script>
+		
 
 	
 	</form>
