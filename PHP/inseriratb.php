@@ -1,27 +1,20 @@
 <?php
 include "conexao.php";
+$username = $_POST["username"];
+$password = $_POST["password"];
+$email = $_POST["email"];
 
-$email = $_POST['email'];
-$senha = $_POST['senha'];
+$insert_data = "INSERT INTO usuario VALUES (DEFAULT, '$username', '$email', '$password')";
 
- $query_select="SELECT fome,malicia,sorte FROM habilidades WHERE email='$email' AND senha='$senha'";
- $select = mysqli_query($conn, $query_select);
-
-if (($select) && ($select->num_rows != 0)) {
-    while ($rows = mysqli_fetch_array($select)) {
-        $detect_email = $rows['email'];
-        $detect_senha = $rows['senha'];
-
-        if (($detect_email == $email) && ($detect_senha == $senha)) {
-            $fome = $rows['fome'];
-            $malicia = $rows['malicia'];
-            $sorte = $rows['sorte']; 
-            echo "lindo";
-        }
-    }
+if (mysqli_query($conn, $insert_data)) {
+} else {
+    echo "Error" . $insert_data, "<br>" . mysqli_error($conn);
 }
 
-if (($detect_email != $email) || ($detect_senha != $senha)) {
-    // header('Location: https://www.youtube.com')
-    echo "feio";
-}
+mysqli_close($conn);
+
+header('Location: http://localhost//tcc11/ATBS/atributos.php');
+
+
+
+?>

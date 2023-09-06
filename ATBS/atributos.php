@@ -48,40 +48,40 @@
 	<form method="POST" action="PHP/selecaologin.php">
 
 	<p id="editableText1" contenteditable="true"><label for="email">Vida:</label></p>
-		<input type="number" name="email" required autocomplete="off">
+		<input type="number" name="vida" required autocomplete="off">
 
 	<p id="editableText1" contenteditable="true"><label for="email">Mana:</label></p>
-		<input type="number" name="email" required autocomplete="off">
+		<input type="number" name="mana" required autocomplete="off">
 
 	<p id="editableText1" contenteditable="true"><label for="email">Esquiva:</label></p>
-		<input type="number" name="email" required autocomplete="off">
+		<input type="number" name="esquiva" required autocomplete="off">
 
 	<p id="editableText1" contenteditable="true"><label for="email">Sorte:</label></p>
-		<input type="number" name="email" required autocomplete="off">
+		<input type="number" name="sorte" required autocomplete="off">
 		
 	<p id="editableText1" contenteditable="true"><label for="email">Inteligência:</label></p>
-		<input type="number" name="email" required autocomplete="off">
+		<input type="number" name="inteligencia" required autocomplete="off">
 
 	<p id="editableText1" contenteditable="true"><label for="email">Malicia:</label></p>
-		<input type="number" name="email" required autocomplete="off">
+		<input type="number" name="malicia" required autocomplete="off">
 
 	<p id="editableText1" contenteditable="true"><label for="email">Primeiros socorros:</label></p>
-		<input type="number" name="email" required minlength="1" maxlength="2">
+		<input type="number" name="socorros" required minlength="1" maxlength="2">
 		
 	<p id="editableText1" contenteditable="true"><label for="email">Velocidade:</label></p>
-		<input type="number" name="email" required autocomplete="off">
+		<input type="number" name="velocidade" required autocomplete="off">
 		
 	<p id="editableText1" contenteditable="true"><label for="email">Conhecimentos-gerais:</label></p>
-		<input type="number" name="email" required autocomplete="off">
+		<input type="number" name="conhecimento" required autocomplete="off">
 
 </div>
 <div class="conter">
 		<alingn >
 	<p id="editableText2" contenteditable="true"><label for="email">Maestria com armas:</label></p>
-		<input type="number" name="email" required autocomplete="off">
+		<input type="number" name="armas" required autocomplete="off">
 
 		<p id="editableText2" contenteditable="true"><label for="email">Arremessar</label></p>
-		<input type="number" name="email" required autocomplete="off">
+		<input type="number" name="arremesso" required autocomplete="off">
 		<br></br>
 		
 		<button type="submit">Proximo</button>
