@@ -38,14 +38,14 @@
 </head>
 <body>
 
-	<form method="POST" action="PHP/selecaologin.php">
+	<form method="POST" action="PHP/inseriratb.php">
 	<div class="container">
 		<h1>Atributos</h1>
 	<form>
 		<fieldset id="login"><legend>dta</legend>
 	</form>
 
-	<form method="POST" action="PHP/selecaologin.php">
+	<form method="POST" action="PHP/inseriratb.php">
 
 	<p id="editableText1" contenteditable="true"><label for="email">Vida:</label></p>
 		<input type="number" name="vida" required autocomplete="off">
